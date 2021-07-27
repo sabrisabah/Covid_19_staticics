@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_00ab6377e2a14763aa25199b8459d1c2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_00ab6377e2a14763aa25199b8459d1c2" ></div>
+        
+</body>
+<script>    
+    
+            var map_00ab6377e2a14763aa25199b8459d1c2 = L.map(
+                "map_00ab6377e2a14763aa25199b8459d1c2",
+                {
+                    center: [33.330202, 44.456559],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9f1a3d98f4ec40849c30369ee3e78703 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var circle_marker_c6c1d6d134f245c5bb6af5f9f7a24a3e = L.circleMarker(
+                [33.342123, 40.973029],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_a2885976ca75475288b7fe325807a5af = L.marker(
+                [33.342123, 40.973029],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_e08222c0e4b64655b1ee2bb6862ae666 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47c616745e55495683f852d07bfa2ecb = $(`<div id="html_47c616745e55495683f852d07bfa2ecb" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Anbar</strong> <br><strong><b>Cumulative Cases : 14244</strong> <br><strong><b>Confirmed : 111</strong> <br><strong><b>Deaths : 0.0</strong> <br></div>`)[0];
+            popup_e08222c0e4b64655b1ee2bb6862ae666.setContent(html_47c616745e55495683f852d07bfa2ecb);
+        
+
+        marker_a2885976ca75475288b7fe325807a5af.bindPopup(popup_e08222c0e4b64655b1ee2bb6862ae666)
+        ;
+
+        
+    
+    
+            var circle_marker_e2f82c61da2343f9bbeccb45b5a3885c = L.circleMarker(
+                [32.464726, 44.550963],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_a62d96b893fa43888dd00ee583fc0ff2 = L.marker(
+                [32.464726, 44.550963],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_0ab8344bc3324e1fa9b765389c6263aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bc0a312de8549af86e97600f5b45a2a = $(`<div id="html_1bc0a312de8549af86e97600f5b45a2a" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Babylon</strong> <br><strong><b>Cumulative Cases : 66450</strong> <br><strong><b>Confirmed : 273</strong> <br><strong><b>Deaths : 5.0</strong> <br></div>`)[0];
+            popup_0ab8344bc3324e1fa9b765389c6263aa.setContent(html_1bc0a312de8549af86e97600f5b45a2a);
+        
+
+        marker_a62d96b893fa43888dd00ee583fc0ff2.bindPopup(popup_0ab8344bc3324e1fa9b765389c6263aa)
+        ;
+
+        
+    
+    
+            var circle_marker_bfbda76ef90641fda93f274a2df53c8f = L.circleMarker(
+                [33.271274, 44.316805],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_531d1f77df024455b636ac67289389af = L.marker(
+                [33.271274, 44.316805],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_ee3a8aa8b06542c39b529b346ffc5650 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddd36dd40a6a4cce9679852add28e77f = $(`<div id="html_ddd36dd40a6a4cce9679852add28e77f" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Baghdad-Karkh</strong> <br><strong><b>Cumulative Cases : 328993</strong> <br><strong><b>Confirmed : 1949</strong> <br><strong><b>Deaths : 5.0</strong> <br></div>`)[0];
+            popup_ee3a8aa8b06542c39b529b346ffc5650.setContent(html_ddd36dd40a6a4cce9679852add28e77f);
+        
+
+        marker_531d1f77df024455b636ac67289389af.bindPopup(popup_ee3a8aa8b06542c39b529b346ffc5650)
+        ;
+
+        
+    
+    
+            var circle_marker_976d2b66997140d0a5040e9c2abdc1c9 = L.circleMarker(
+                [30.514636, 47.78439],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_954af44d4ed144f28dedf9999feb14aa = L.marker(
+                [30.514636, 47.78439],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_773fe3e76546470ab32c10eb0a9c8b23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_124cc9ac0fcd41f881bb152a67ca521e = $(`<div id="html_124cc9ac0fcd41f881bb152a67ca521e" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Basrah</strong> <br><strong><b>Cumulative Cases : 728828</strong> <br><strong><b>Confirmed : 875</strong> <br><strong><b>Deaths : 3.0</strong> <br></div>`)[0];
+            popup_773fe3e76546470ab32c10eb0a9c8b23.setContent(html_124cc9ac0fcd41f881bb152a67ca521e);
+        
+
+        marker_954af44d4ed144f28dedf9999feb14aa.bindPopup(popup_773fe3e76546470ab32c10eb0a9c8b23)
+        ;
+
+        
+    
+    
+            var circle_marker_28457ca4594946b28b1c5cb00f02c475 = L.circleMarker(
+                [36.86365, 43.005022],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_e8f12ac2ff7d4c488d8e95bc3cae7a10 = L.marker(
+                [36.86365, 43.005022],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_2d7255ee701b424691fa7a7653035a59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9092889212324d0ab3c02f8ca67f134a = $(`<div id="html_9092889212324d0ab3c02f8ca67f134a" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Dahuk</strong> <br><strong><b>Cumulative Cases : 808262</strong> <br><strong><b>Confirmed : 1364</strong> <br><strong><b>Deaths : 6.0</strong> <br></div>`)[0];
+            popup_2d7255ee701b424691fa7a7653035a59.setContent(html_9092889212324d0ab3c02f8ca67f134a);
+        
+
+        marker_e8f12ac2ff7d4c488d8e95bc3cae7a10.bindPopup(popup_2d7255ee701b424691fa7a7653035a59)
+        ;
+
+        
+    
+    
+            var circle_marker_8431bd3516894ceb93010fb1d508f155 = L.circleMarker(
+                [33.776075, 44.803279],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_b73108cb2ca04940810d43b0e1a2d03d = L.marker(
+                [33.776075, 44.803279],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_a09bff29887747d4a9f879457d788d08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebd2ebeebdcc42dda95053b357a1968a = $(`<div id="html_ebd2ebeebdcc42dda95053b357a1968a" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Diyala</strong> <br><strong><b>Cumulative Cases : 921405</strong> <br><strong><b>Confirmed : 391</strong> <br><strong><b>Deaths : 3.0</strong> <br></div>`)[0];
+            popup_a09bff29887747d4a9f879457d788d08.setContent(html_ebd2ebeebdcc42dda95053b357a1968a);
+        
+
+        marker_b73108cb2ca04940810d43b0e1a2d03d.bindPopup(popup_a09bff29887747d4a9f879457d788d08)
+        ;
+
+        
+    
+    
+            var circle_marker_88b4659c84604de8b473872c76693709 = L.circleMarker(
+                [36.189012, 44.009063],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_3e5bd6c039d6461dba7c97d51f96e7a8 = L.marker(
+                [36.189012, 44.009063],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_714829bb75094ae6bd83d183ca9fbdd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b554b1baada44fc904de04fc61fd22d = $(`<div id="html_7b554b1baada44fc904de04fc61fd22d" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Erbil</strong> <br><strong><b>Cumulative Cases : 987101</strong> <br><strong><b>Confirmed : 757</strong> <br><strong><b>Deaths : 6.0</strong> <br></div>`)[0];
+            popup_714829bb75094ae6bd83d183ca9fbdd9.setContent(html_7b554b1baada44fc904de04fc61fd22d);
+        
+
+        marker_3e5bd6c039d6461dba7c97d51f96e7a8.bindPopup(popup_714829bb75094ae6bd83d183ca9fbdd9)
+        ;
+
+        
+    
+    
+            var circle_marker_8399e526377045d8b3d93fb15bec4b2c = L.circleMarker(
+                [32.617762, 43.986665],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_aa8fe9afb1c2437d8be65358dcd27103 = L.marker(
+                [32.617762, 43.986665],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_47540e5ce11749aeb72f77bfdad2c8e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_465e6dd1d00c4308b9b962680efcec80 = $(`<div id="html_465e6dd1d00c4308b9b962680efcec80" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Kerbala</strong> <br><strong><b>Cumulative Cases : 1049981</strong> <br><strong><b>Confirmed : 452</strong> <br><strong><b>Deaths : 2.0</strong> <br></div>`)[0];
+            popup_47540e5ce11749aeb72f77bfdad2c8e5.setContent(html_465e6dd1d00c4308b9b962680efcec80);
+        
+
+        marker_aa8fe9afb1c2437d8be65358dcd27103.bindPopup(popup_47540e5ce11749aeb72f77bfdad2c8e5)
+        ;
+
+        
+    
+    
+            var circle_marker_d57fc5abd35945d78241e84395334e53 = L.circleMarker(
+                [35.458252, 44.394705],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_606c9917f7284a8299e0dd17309994fb = L.marker(
+                [35.458252, 44.394705],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_6120e98237b9465683a916c1c69b68fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04f4c9a88d7c4318bcb61459adb733b8 = $(`<div id="html_04f4c9a88d7c4318bcb61459adb733b8" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Kirkuk</strong> <br><strong><b>Cumulative Cases : 1105307</strong> <br><strong><b>Confirmed : 182</strong> <br><strong><b>Deaths : 2.0</strong> <br></div>`)[0];
+            popup_6120e98237b9465683a916c1c69b68fd.setContent(html_04f4c9a88d7c4318bcb61459adb733b8);
+        
+
+        marker_606c9917f7284a8299e0dd17309994fb.bindPopup(popup_6120e98237b9465683a916c1c69b68fd)
+        ;
+
+        
+    
+    
+            var circle_marker_6a17301f007444499543571c50302700 = L.circleMarker(
+                [31.835885, 47.137934],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_c5cce57ca7524b76af9732ccfa5c8302 = L.marker(
+                [31.835885, 47.137934],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_6892d65cf886424fa91463b0d9005f61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a41e79758092499d9af3c7ca59224489 = $(`<div id="html_a41e79758092499d9af3c7ca59224489" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Missan</strong> <br><strong><b>Cumulative Cases : 1162892</strong> <br><strong><b>Confirmed : 400</strong> <br><strong><b>Deaths : 4.0</strong> <br></div>`)[0];
+            popup_6892d65cf886424fa91463b0d9005f61.setContent(html_a41e79758092499d9af3c7ca59224489);
+        
+
+        marker_c5cce57ca7524b76af9732ccfa5c8302.bindPopup(popup_6892d65cf886424fa91463b0d9005f61)
+        ;
+
+        
+    
+    
+            var circle_marker_17b72bbdf661456d8d1339efa0205ccb = L.circleMarker(
+                [31.214113, 45.333163],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_90084bc58ecf49369ca64166152a907a = L.marker(
+                [31.214113, 45.333163],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_09d1bad48f354e7eb4e8aecbf1b376a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0559fb67ee1144fb9b704c512ea3bc99 = $(`<div id="html_0559fb67ee1144fb9b704c512ea3bc99" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Muthanna</strong> <br><strong><b>Cumulative Cases : 1190361</strong> <br><strong><b>Confirmed : 111</strong> <br><strong><b>Deaths : 0.0</strong> <br></div>`)[0];
+            popup_09d1bad48f354e7eb4e8aecbf1b376a5.setContent(html_0559fb67ee1144fb9b704c512ea3bc99);
+        
+
+        marker_90084bc58ecf49369ca64166152a907a.bindPopup(popup_09d1bad48f354e7eb4e8aecbf1b376a5)
+        ;
+
+        
+    
+    
+            var circle_marker_4123002880a14c4384cb932fef0e7a53 = L.circleMarker(
+                [31.936929, 44.253678],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_b71e69daf4aa44fdbab90d4d8c9e075c = L.marker(
+                [31.936929, 44.253678],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_08741c7265ff4aa2a238d6097e831531 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e5da0f2c66642eca8d40f96668cffb3 = $(`<div id="html_5e5da0f2c66642eca8d40f96668cffb3" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Najaf</strong> <br><strong><b>Cumulative Cases : 1267143</strong> <br><strong><b>Confirmed : 253</strong> <br><strong><b>Deaths : 2.0</strong> <br></div>`)[0];
+            popup_08741c7265ff4aa2a238d6097e831531.setContent(html_5e5da0f2c66642eca8d40f96668cffb3);
+        
+
+        marker_b71e69daf4aa44fdbab90d4d8c9e075c.bindPopup(popup_08741c7265ff4aa2a238d6097e831531)
+        ;
+
+        
+    
+    
+            var circle_marker_92c01afa68284201bd8f875f89ca4f01 = L.circleMarker(
+                [36.450226, 42.809036],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_feea33c2ce694431a04966aff3ba6940 = L.marker(
+                [36.450226, 42.809036],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_604fb657bf564312a9ace9654a709ba6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98f20cdf84704ab58e13129844f03aa7 = $(`<div id="html_98f20cdf84704ab58e13129844f03aa7" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Ninewa</strong> <br><strong><b>Cumulative Cases : 1311761</strong> <br><strong><b>Confirmed : 421</strong> <br><strong><b>Deaths : 4.0</strong> <br></div>`)[0];
+            popup_604fb657bf564312a9ace9654a709ba6.setContent(html_98f20cdf84704ab58e13129844f03aa7);
+        
+
+        marker_feea33c2ce694431a04966aff3ba6940.bindPopup(popup_604fb657bf564312a9ace9654a709ba6)
+        ;
+
+        
+    
+    
+            var circle_marker_c7793cc7404749929c4f5b83cca499f7 = L.circleMarker(
+                [31.972523, 44.90894],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_e2e7838b62ae41e2ac2b120ab72783f6 = L.marker(
+                [31.972523, 44.90894],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_11ff2e3703d945cb90e02ec25081012c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dd1eeb3790343a0855fb1e9cf2e66da = $(`<div id="html_5dd1eeb3790343a0855fb1e9cf2e66da" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Qadissiya</strong> <br><strong><b>Cumulative Cases : 859819</strong> <br><strong><b>Confirmed : 324</strong> <br><strong><b>Deaths : 4.0</strong> <br></div>`)[0];
+            popup_11ff2e3703d945cb90e02ec25081012c.setContent(html_5dd1eeb3790343a0855fb1e9cf2e66da);
+        
+
+        marker_e2e7838b62ae41e2ac2b120ab72783f6.bindPopup(popup_11ff2e3703d945cb90e02ec25081012c)
+        ;
+
+        
+    
+    
+            var circle_marker_81983d7625c54061ab4ffd46467de1df = L.circleMarker(
+                [34.608595, 43.66073],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_8b0df55b92ed4b34a1e520dcf568f4e5 = L.marker(
+                [34.608595, 43.66073],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_a5bd8335bcc04d67a1fae39ba3b8c32e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7eb5eaffaea4a16a2902473b5226a1d = $(`<div id="html_b7eb5eaffaea4a16a2902473b5226a1d" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Salah al-Din</strong> <br><strong><b>Cumulative Cases : 1343040</strong> <br><strong><b>Confirmed : 239</strong> <br><strong><b>Deaths : 0.0</strong> <br></div>`)[0];
+            popup_a5bd8335bcc04d67a1fae39ba3b8c32e.setContent(html_b7eb5eaffaea4a16a2902473b5226a1d);
+        
+
+        marker_8b0df55b92ed4b34a1e520dcf568f4e5.bindPopup(popup_a5bd8335bcc04d67a1fae39ba3b8c32e)
+        ;
+
+        
+    
+    
+            var circle_marker_fdf47cced2214f15a0f5b66581d2bbd8 = L.circleMarker(
+                [35.56486, 45.409712],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_23a9c4f6bc6740b6a340af24464cd471 = L.marker(
+                [35.56486, 45.409712],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_a3b6b9d5ac434159adc6bb2ecd9bc710 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_032ea9acc81d4dedbe5d3495a6f0e4f3 = $(`<div id="html_032ea9acc81d4dedbe5d3495a6f0e4f3" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Sulaymaniyah</strong> <br><strong><b>Cumulative Cases : 1418711</strong> <br><strong><b>Confirmed : 1129</strong> <br><strong><b>Deaths : 7.0</strong> <br></div>`)[0];
+            popup_a3b6b9d5ac434159adc6bb2ecd9bc710.setContent(html_032ea9acc81d4dedbe5d3495a6f0e4f3);
+        
+
+        marker_23a9c4f6bc6740b6a340af24464cd471.bindPopup(popup_a3b6b9d5ac434159adc6bb2ecd9bc710)
+        ;
+
+        
+    
+    
+            var circle_marker_a3aa72ca3b9d4459ae8ae45212283e7f = L.circleMarker(
+                [31.042542, 46.27852100000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_569e331f082e4d93958943b8140dcfec = L.marker(
+                [31.042542, 46.27852100000001],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_2bf8915251424751a44d44df9119760c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_604d075e24d0418494f44926307a0a98 = $(`<div id="html_604d075e24d0418494f44926307a0a98" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Thi-Qar</strong> <br><strong><b>Cumulative Cases : 1488598</strong> <br><strong><b>Confirmed : 977</strong> <br><strong><b>Deaths : 6.0</strong> <br></div>`)[0];
+            popup_2bf8915251424751a44d44df9119760c.setContent(html_604d075e24d0418494f44926307a0a98);
+        
+
+        marker_569e331f082e4d93958943b8140dcfec.bindPopup(popup_2bf8915251424751a44d44df9119760c)
+        ;
+
+        
+    
+    
+            var circle_marker_09e21282f969466389924ee19eb07b1a = L.circleMarker(
+                [32.517501, 45.808877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_580f441c82bd4d48998aae0e8479118a = L.marker(
+                [32.517501, 45.808877],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_282d18ba7faf4238b127ed497fe1d1b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_969adf4b52354bed9f22bae454018fa8 = $(`<div id="html_969adf4b52354bed9f22bae454018fa8" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Wassit</strong> <br><strong><b>Cumulative Cases : 1577029</strong> <br><strong><b>Confirmed : 931</strong> <br><strong><b>Deaths : 1.0</strong> <br></div>`)[0];
+            popup_282d18ba7faf4238b127ed497fe1d1b7.setContent(html_969adf4b52354bed9f22bae454018fa8);
+        
+
+        marker_580f441c82bd4d48998aae0e8479118a.bindPopup(popup_282d18ba7faf4238b127ed497fe1d1b7)
+        ;
+
+        
+    
+    
+            var circle_marker_65e408362b3545fb8a89870230f21536 = L.circleMarker(
+                [33.326792, 44.474191],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+            var marker_04686a3985a445d7822cfc5c1f4f1957 = L.marker(
+                [33.326792, 44.474191],
+                {}
+            ).addTo(map_00ab6377e2a14763aa25199b8459d1c2);
+        
+    
+        var popup_112cb3840c484bb8b7756ccfea14d091 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38ae2a72dba24e6fb080012982dc2b52 = $(`<div id="html_38ae2a72dba24e6fb080012982dc2b52" style="width: 100.0%; height: 100.0%;"><strong><b>2021-07-27</strong> <br><strong><b>Province : Baghdad-resafa</strong> <br><strong><b>Cumulative Cases : 564177</strong> <br><strong><b>Confirmed : 1046</strong> <br><strong><b>Deaths : 11.0</strong> <br></div>`)[0];
+            popup_112cb3840c484bb8b7756ccfea14d091.setContent(html_38ae2a72dba24e6fb080012982dc2b52);
+        
+
+        marker_04686a3985a445d7822cfc5c1f4f1957.bindPopup(popup_112cb3840c484bb8b7756ccfea14d091)
+        ;
+
+        
+    
+</script>
